@@ -22,7 +22,7 @@ def get_model():
     global _model
     if _model is None:
         from fastembed import SparseTextEmbedding
-        _model = SparseTextEmbedding("Qdrant/SPLADE_PP_en_v1")
+        _model = SparseTextEmbedding("prithivida/Splade_PP_en_v1")
     return _model
 
 class EmbedRequest(BaseModel):
